@@ -1,24 +1,48 @@
 {
-  "name": "password-gen-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msaaddev/password-generator.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/msaaddev/password-generator/issues"
-  },
-  "homepage": "https://github.com/msaaddev/password-generator#readme",
-  "dependencies": {
-    "chalk": "^4.1.0",
-    "fs": "0.0.1-security"
-  }
+    "name": "password-gen-cli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": {
+        "name": "Saad Irfan",
+        "email": "mrsaadirfan@gmail.com",
+        "url": "https://twitter.com/msaaddev"
+    },
+    "bin": {
+        "pgen": "index.js"
+    },
+    "files": [
+        "index.js",
+        "utils/*"
+    ],
+    "keywords": [
+        "github-cli",
+        "create-repo",
+        "cli",
+        "github automation",
+        "delete-repo",
+        "stargazers",
+        "issues",
+        "github-issues",
+        "get all repos",
+        "node.js automation"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/msaaddev/password-generator.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/msaaddev/password-generator/issues"
+    },
+    "homepage": "https://github.com/msaaddev/password-generator#readme",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "clear": "^0.1.0",
+        "console-read-write": "^0.1.1",
+        "fs": "0.0.1-security"
+    }
 }
