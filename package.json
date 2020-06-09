@@ -1,5 +1,5 @@
 {
-  "name": "password-generator",
+  "name": "password-gen-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/msaaddev/password-generator#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "fs": "0.0.1-security"
   }
 }
