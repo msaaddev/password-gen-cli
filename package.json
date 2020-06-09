@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/msaaddev/password-generator#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
     "fs": "0.0.1-security"
   }
 }
