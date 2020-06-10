@@ -42,6 +42,7 @@
     "dependencies": {
         "chalk": "^4.1.0",
         "clear": "^0.1.0",
+        "clipboardy": "^2.3.0",
         "console-read-write": "^0.1.1",
         "fs": "0.0.1-security"
     }
