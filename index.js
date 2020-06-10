@@ -14,10 +14,9 @@ const cli = require('./utils/cli');
 const footer = require('./utils/footer');
 const clear = require('clear');
 
-
-(module.exports = () => {
+(module.exports = async () => {
     clear();
     header();
-    cli();
+    await cli();
     footer();
 })();
