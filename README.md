@@ -35,6 +35,8 @@ pgen
 
 The CLI will ask if you are interested in saving the password. Enter any letter if you are. If you don't want to save the password, just hit <kbd>Enter</kbd>.
 
+**Note:** Passwords will be saved in credentials.txt file located in your root user directory.
+
 <img src="./images/working.gif" alt="working">
 
 ## 👨🏻‍💻 AUTHOR
