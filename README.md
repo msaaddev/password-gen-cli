@@ -33,7 +33,7 @@ pgen
 
 The CLI will ask if you are interested in saving the password. Enter any letter if you are. If you don't want to save the password, just hit <kbd>Enter</kbd>.
 
-<img src="../password-gen-cli/images/working.gif" alt="working">
+<img src="./images/working.gif" alt="working">
 
 ## 👨🏻‍💻 AUTHOR
 
