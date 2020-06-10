@@ -1,24 +1,31 @@
-// importing packages
+// importing packages and files
 
 const fs = require('fs');
 const chalk = require('chalk');
 const io = require('console-read-write');
 const clipboardy = require('clipboardy');
+const save = require('./save');
 
 module.exports = async () => {
-    let pass = '';
+    // generating random password
+    let password = '';
     let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*abcdefghijklmnopqrstuvwxyz0123456789';
     let charactersLength = characters.length;
     for (let i = 0; i < 15; i++)
-        pass += characters.charAt(Math.floor(Math.random() * charactersLength));
+        password += characters.charAt(Math.floor(Math.random() * charactersLength));
 
+    // copying to the clipboard
     try {
-        await clipboardy.write(pass);
+        await clipboardy.write(password);
         io.write(
-            chalk.italic(`\n Password successfully generated & copied to the clipboard: ${pass}`)
+            chalk.italic(
+                `\n Password successfully generated & copied to the clipboard: ${password}`
+            )
         );
     } catch (error) {
         io.write(chalk.red(` Couldn't copy password to the clipboard\n`));
-        halk.italic(`Password: ${pass}`);
+        halk.italic(`Password: ${password}`);
     }
+
+    await save(password);
 };
