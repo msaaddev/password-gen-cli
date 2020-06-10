@@ -10,5 +10,5 @@ module.exports = () => {
     let charactersLength = characters.length;
     for (let i = 0; i < 15; i++)
         pass += characters.charAt(Math.floor(Math.random() * charactersLength));
-    io.write(chalk.italic(`\nPassword successfully generated & copied to the clipboard: ${pass}`));
+    io.write(chalk.italic(`\n Password successfully generated & copied to the clipboard: ${pass}`));
 };
