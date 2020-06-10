@@ -1,8 +1,9 @@
-const { cyan } = require('chalk');
+const { cyan, dim } = require('chalk');
 const io = require('console-read-write');
 const pkg = require('../package.json');
 
 module.exports = () => {
-    io.write(cyan(`\nThank you for using ${pkg.name}!\n`));
-    io.write(cyan('Please star (⭐️) the repo: https://github.com/msaaddev/password-gen-cli/\n'));
+    io.write(dim(cyan(`\n Thank you for using ${pkg.name}!`)));
+    io.write(dim(cyan('\n Star (⭐️) the repo: https://github.com/msaaddev/password-gen-cli/')));
+    io.write(dim(cyan(' Connect with me: https://twitter.com/MSaaddev/\n')));
 };
