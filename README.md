@@ -5,7 +5,7 @@
 	</h1>
 </div>
 
-Tired of thinking new passwords everytime you sign up somewhere!? Then this CLI is just for you!
+Tired of thinking new passwords everytime you sign up somewhere!? Don't worry anymore. I got you covered. 😉
 
 ## 👉 FEATURES
 
@@ -33,7 +33,7 @@ pgen
 
 The CLI will ask if you are interested in saving the password. Enter any letter if you are. If you don't want to save the password, just hit <kbd>Enter</kbd>.
 
-<img src="https://i.imgur.com/et7HzYq.gif" alt="working">
+<img src="../password-gen-cli/images/working.gif" alt="working">
 
 ## 👨🏻‍💻 AUTHOR
 
