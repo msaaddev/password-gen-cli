@@ -2,7 +2,7 @@
 
 <div align="center">
 	<h1>🚀 password-gen-cli<br>
-	<img alt="version: 1.0.2" src="https://img.shields.io/badge/version-v1.0.2-green">
+	<img alt="version: 1.0.3" src="https://img.shields.io/badge/version-v1.0.3-green">
 	<img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-green">
 	</h1>
 </div>

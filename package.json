@@ -1,7 +1,7 @@
 {
     "name": "password-gen-cli",
-    "version": "1.0.2",
-    "description": "",
+    "version": "1.0.3",
+    "description": "Generates password, copy it on clipboard, save it locally",
     "main": "index.js",
     "author": {
         "name": "Saad Irfan",
