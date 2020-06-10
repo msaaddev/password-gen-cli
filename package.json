@@ -1,6 +1,6 @@
 {
     "name": "password-gen-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "author": {
@@ -16,16 +16,8 @@
         "utils/*"
     ],
     "keywords": [
-        "github-cli",
-        "create-repo",
-        "cli",
-        "github automation",
-        "delete-repo",
-        "stargazers",
-        "issues",
-        "github-issues",
-        "get all repos",
-        "node.js automation"
+        "password generate",
+        "random password generate"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
