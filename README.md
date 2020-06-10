@@ -1,3 +1,5 @@
+<img src="./images/cover.png" alt="cover image">
+
 <div align="center">
 	<h1>🚀 password-gen-cli<br>
 	<img alt="version: 1.0.1" src="https://img.shields.io/badge/version-v1.0.1-green">
