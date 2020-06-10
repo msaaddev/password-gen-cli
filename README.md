@@ -21,7 +21,7 @@ Install the CLI globally. If you are windows user, run your command prompt/termi
 npm i -g password-gen-cli
 ```
 
-<img src="https://i.imgur.com/XBMS35S.gif" alt="CLI installing">
+<img src="./images/installation.gif" alt="CLI installing">
 
 ## 🏗 USAGE
 
