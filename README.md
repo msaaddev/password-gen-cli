@@ -2,8 +2,9 @@
 
 <div align="center">
 	<h1>🚀 password-gen-cli<br>
-	<img alt="version: 1.0.3" src="https://img.shields.io/badge/version-v1.0.3-green">
-	<img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-green">
+	<img src="https://img.shields.io/npm/v/password-gen-cli?color=%#80C73D&label=version">
+	<img src="https://img.shields.io/npm/dt/password-gen-cli?color=%#80C73D">
+	<img src="https://img.shields.io/npm/l/password-gen-cli?color=%#80C73D">
 	</h1>
 </div>
 
