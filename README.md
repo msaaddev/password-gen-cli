@@ -39,7 +39,7 @@ A random password will be generated & then will be copied to the clipboard.
 
 ## 👨🏻‍💻 AUTHOR
 
-🙋🏻‍♂️ Hola! I am Saad, an undergrad Computer Science student. As a developer I know that how dangerous it is to use same password on every website. So I developed this CLI that can generate random passwords and thus saving you the trouble of thing different passwords over and over again.
+🙋🏻‍♂️ Hola! I am Saad, an undergrad Computer Science student. As a developer I know that how dangerous it is to use same password on every website. So I developed this CLI that can generate random passwords and thus saving you the trouble of thinking different passwords over and over again.
 
 👋🏻 Say Hello to me:
 
