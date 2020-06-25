@@ -4,7 +4,6 @@ const fs = require('fs');
 const chalk = require('chalk');
 const io = require('console-read-write');
 const clipboardy = require('clipboardy');
-const save = require('./save');
 
 module.exports = async () => {
     // generating random password
@@ -26,6 +25,4 @@ module.exports = async () => {
         io.write(chalk.red(` Couldn't copy password to the clipboard\n`));
         halk.italic(`Password: ${password}`);
     }
-
-    await save(password);
 };
