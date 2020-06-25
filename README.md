@@ -14,7 +14,6 @@ Tired of thinking new passwords everytime you sign up somewhere!? Don't worry an
 
 -   🔑 Generate Random Passwords
 -   📋 No need to copy the password. Just press <kbd>⌘ Command </kbd> + <kbd> V </kbd> where you want to paste it.
--   🚀 Save the credentials locally on your device.
 
 ## 🎩 INSTALLATION
 
@@ -33,16 +32,14 @@ Run the CLI by typing the following command in your terminal/command prompt. Thi
 ```
 pgen
 ```
+A random password will be generated & then will be copied to the clipboard.
 
-The CLI will ask if you are interested in saving the password. Enter any letter if you are. If you don't want to save the password, just hit <kbd>Enter</kbd>.
 
-**Note:** Passwords will be saved in credentials.txt file located in your root user directory.
-
-<img src="./images/working.gif" alt="working">
+<img src="./images/working.png" alt="working">
 
 ## 👨🏻‍💻 AUTHOR
 
-🙋🏻‍♂️ Hola! I am Saad, an undergrad Computer Science student. As a developer I know that how dangerous it is to use same password on every website. So I developed this CLI that can generate random passwords and allow you to save your credentials locally on your computer.
+🙋🏻‍♂️ Hola! I am Saad, an undergrad Computer Science student. As a developer I know that how dangerous it is to use same password on every website. So I developed this CLI that can generate random passwords and thus saving you the trouble of thing different passwords over and over again.
 
 👋🏻 Say Hello to me:
 
