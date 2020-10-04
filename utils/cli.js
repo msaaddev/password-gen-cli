@@ -23,6 +23,6 @@ module.exports = async () => {
         );
     } catch (error) {
         io.write(chalk.red(` Couldn't copy password to the clipboard\n`));
-        halk.italic(`Password: ${password}`);
+        io.write(chalk.italic(`Password: ${password}`));
     }
 };
