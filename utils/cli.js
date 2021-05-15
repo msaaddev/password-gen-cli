@@ -1,6 +1,5 @@
 // importing packages and files
 
-const fs = require('fs');
 const chalk = require('chalk');
 const io = require('console-read-write');
 const clipboardy = require('clipboardy');
@@ -19,13 +18,13 @@ module.exports = async () => {
 	// copying to the clipboard
 	try {
 		await clipboardy.write(password);
-		io.write(
+		console.log(
 			chalk.italic(
-				`\n Password successfully generated & copied to the clipboard: ${password}`
+				`Password successfully generated & copied to the clipboard: ${password}`
 			)
 		);
 	} catch (error) {
-		io.write(chalk.red(` Couldn't copy password to the clipboard\n`));
-		io.write(chalk.italic(`Password: ${password}`));
+		console.log(chalk.red(` Couldn't copy password to the clipboard\n`));
+		console.log(chalk.italic(`Password: ${password}`));
 	}
 };
