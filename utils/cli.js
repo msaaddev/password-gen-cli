@@ -1,7 +1,6 @@
 // importing packages and files
 
 const chalk = require('chalk');
-const io = require('console-read-write');
 const clipboardy = require('clipboardy');
 
 module.exports = async () => {
