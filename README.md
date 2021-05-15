@@ -39,7 +39,7 @@ pgen
 A random password will be generated & then will be copied to the clipboard.
 
 
-<img src="./images/working.png" alt="working">
+<img src="./images/cli.png" alt="working">
 
 ## 🔑 License & Conduct
 
