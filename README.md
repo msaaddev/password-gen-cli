@@ -23,7 +23,11 @@ Install the CLI globally. If you are windows user, run your command prompt/termi
 npm i -g password-gen-cli
 ```
 
-<img src="./images/installation.gif" alt="CLI installing">
+You can also use it using npx.
+
+```sh
+npx password-gen-cli
+```
 
 ## 🏗 USAGE
 
@@ -37,16 +41,7 @@ A random password will be generated & then will be copied to the clipboard.
 
 <img src="./images/working.png" alt="working">
 
-## 👨🏻‍💻 AUTHOR
+## 🔑 License & Conduct
 
-🙋🏻‍♂️ Hola! I am Saad, an undergrad Computer Science student. As a developer I know that how dangerous it is to use same password on every website. So I developed this CLI that can generate random passwords and thus saving you the trouble of thinking different passwords over and over again.
-
-👋🏻 Say Hello to me:
-
--   [Twitter](https://twitter.com/msaaddev)
--   [Facebook](https://www.facebook.com/msaaddev)
--   [Blog](https://msaad.dev)
-
-## 🔑 LICENSE
-
--   MIT
+- MIT © [Saad Irfan](https://github.com/msaaddev)
+- [Code of Conduct](https://github.com/msaaddev/password-gen-cli/blob/master/CODE-OF-CONDUCT.md)
