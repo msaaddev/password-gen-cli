@@ -3,6 +3,7 @@
 	"version": "1.2.0",
 	"description": "Generates password & copy it on clipboard",
 	"main": "index.js",
+	"type": "module",
 	"author": {
 		"name": "Saad Irfan",
 		"email": "mrsaadirfan@gmail.com",

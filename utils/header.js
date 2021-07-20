@@ -1,9 +1,13 @@
 // importing packages
 
-const pkgJSON = require('../package.json');
-const welcome = require('cli-welcome');
+import { readFile } from 'fs/promises';
+import welcome from 'cli-welcome';
 
-module.exports = () => {
+const pkgJSON = JSON.parse(
+	await readFile(new URL('../package.json', import.meta.url))
+);
+
+export default () => {
 	welcome({
 		title: `${pkgJSON.name}`,
 		tagLine: `by ${pkgJSON.author.name}`,

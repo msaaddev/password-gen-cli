@@ -1,9 +1,9 @@
 // importing packages and files
 
-const chalk = require('chalk');
-const clipboardy = require('clipboardy');
+import chalk from 'chalk';
+import { write } from 'clipboardy';
 
-module.exports = async () => {
+export default async () => {
 	// generating random password
 	let password = '';
 	let characters =
@@ -16,7 +16,7 @@ module.exports = async () => {
 
 	// copying to the clipboard
 	try {
-		await clipboardy.write(password);
+		await write(password);
 		console.log(
 			chalk.italic(
 				`Password successfully generated & copied to the clipboard: ${password}`
