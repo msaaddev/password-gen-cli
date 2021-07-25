@@ -9,14 +9,14 @@
 
 // importing files & packages
 
-const header = require('./utils/header');
-const cli = require('./utils/cli');
-const footer = require('./utils/footer');
-const clear = require('clear');
+import header from './utils/header.js';
+import cli from './utils/cli.js';
+import footer from './utils/footer.js';
+import clear from 'clear';
 
-(module.exports = async () => {
+export default async () => {
 	clear();
 	header();
 	await cli();
 	footer();
-})();
+};

@@ -1,6 +1,8 @@
-const { cyan, dim } = require('chalk');
+import chalk from 'chalk';
 
-module.exports = () => {
+const { dim, cyan } = chalk;
+
+export default () => {
 	console.log(
 		dim(
 			cyan(
